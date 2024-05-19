@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Saira Condensed";
+    font-size: 1rem;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #454545;
+    background-color: #f7f7f7;
+  }
+                                  
+    header {
+      background-color: #ffffff;
+      color: #000000;
+      padding: 1em;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 10px 0px 0px 0px;
+      display: flex;
+      gap: 10%;
+      justify-content: center;
+    }
+    
+    nav li {
+      margin-right: 20px;
+    }
+    
+    nav a {
+      color: #000000;
+      text-decoration: none;
+    }
+  .hyper:hover{
+    color: red;
+  }
+  main{
+    margin-top: 20px;
+  }
+  .exps {
+    display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 35vh;
+  padding-right: 30vh;
+  width: 100%;
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
+    /* Add responsive styles */
+    @media (max-width: 950px) {
+      grid-template-columns: repeat(1, 1fr);
+      padding-left: 20vh;
+      padding-right: 20vh;
+    }
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(1, 1fr);
+      padding-left: 10vh;
+      padding-right: 10vh;
+    }
+    @media (max-width: 480px) {
+      grid-template-columns: repeat(1, 1fr);
+      padding-left: 5vh;
+      padding-right: 5vh;
+    }
+  }
+  .exp name{
+    font-size: 3.5em;
+  }
+  .exp info{
+    font-size: 1em;
+  }
+  .exp hello{
+    font-size: 1em;
+  }
+  h1{
+    font-size: 1.5rem;
+  }
+  .spa{
+    font-size: 1.5rem;
+
+  }
+  #projects{
+    border: none;
+    outline: none;
+  }
+
+  
+   footer {
+    background-color: #ffffff;
+    color: #454545;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
+.icon{
+  margin: 8px 10px;
+  padding: 2px;
+  font-size: 13px;
+}
+img{
+  max-width: 350px;
+}
+
+.hyper:link { 
+  text-decoration: none; 
+  color: #333;
+} 
+.hyper:visited { 
+  text-decoration: none; 
+} 
+.hyper:hover { 
+  text-decoration: none; 
+} 
+.hyper:active { 
+  text-decoration: none; 
+}
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
+
+  nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
